@@ -35,6 +35,10 @@
                 {{ $product->qrCode() }}
             </div>
 
+            <div class="col">
+                {!! $product->barCode() !!}
+            </div>
+
             <hr class="dropdown-divider">
         </div>
     @endforeach
